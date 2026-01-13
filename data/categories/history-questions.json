@@ -1,0 +1,80 @@
+[
+    {
+        "type": "multiple-choice",
+        "category": "history",
+        "question": "Who was the first President of the United States?",
+        "questionToken": "multiple-choice__first-president",
+        "options": [
+            {
+                "answer": "Thomas Jefferson",
+                "isCorrect": false
+            },
+            {
+                "answer": "George Washington",
+                "isCorrect": true
+            },
+            {
+                "answer": "John Adams",
+                "isCorrect": false
+            },
+            {
+                "answer": "Alexander Hamilton",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+    "type": "short-answer",
+    "category": "history",
+    "question": "Who was the first president of the United States?",
+    "questionToken": "short-answer__first-us-president",
+    "similarityToBeCorrect": 0.9,
+    "options": [
+      {
+        "expectedAnswer": "George Washington",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "multiple-choice",
+    "category": "history",
+    "question": "In which year did the Berlin Wall fall?",
+    "questionToken": "multiple-choice__berlin-wall-fall",
+    "options": [
+      {
+        "answer": "1987",
+        "isCorrect": false
+      },
+      {
+        "answer": "1989",
+        "isCorrect": true
+      },
+      {
+        "answer": "1991",
+        "isCorrect": false
+      },
+      {
+        "answer": "1993",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "true-or-false",
+    "category": "history",
+    "question": "The Great Fire of London happened in the 18th century.",
+    "questionToken": "true-or-false__great-fire-london",
+    "explanation": "The Great Fire of London took place in the 17th century (1666)",
+    "options": [
+      {
+        "answer": "True",
+        "isCorrect": false
+      },
+      {
+        "answer": "False",
+        "isCorrect": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "type": "image-choice",
+        "category": "animals",
+        "question": "Which of these is a lion?",
+        "questionToken": "image-choice__lion",
+        "options": [
+            {
+                "imageSource": "images/answer_images/lion/Loewe_frontal.JPG",
+                "imageAlt": "Lion",
+                "isCorrect": true
+            },
+            {
+                "imageSource": "images/answer_images/lion/Panthera_tigris_altaica_23_-_Buffalo_Zoo.jpg",
+                "imageAlt": "Tiger",
+                "isCorrect": false
+            },
+            {
+                "imageSource": "images/answer_images/lion/640px-Panthera_pardus_japonensis_JdP.jpg",
+                "imageAlt": "Leopard",
+                "isCorrect": false
+            },
+            {
+                "imageSource": "images/answer_images/lion/Male_Jaguar–Photo_Courtesy_of_UA_USFWS_(14046621460).jpg",
+                "imageAlt": "Jaguar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "type": "short-answer",
+        "category": "animals",
+        "question": "What is the largest land animal?",
+        "questionToken": "short-answer__largest-land-animal",
+        "similarityToBeCorrect": 0.9,
+        "options": [
+            {
+                "expectedAnswer": "Elephant",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "type": "multiple-choice",
+        "category": "animals",
+        "question": "Which of the following animals is a marsupial?",
+        "questionToken": "multiple-choice__marsupial",
+        "options": [
+            {
+                "answer": "Kangaroo",
+                "isCorrect": true
+            },
+            {
+                "answer": "Elephant",
+                "isCorrect": false
+            },
+            {
+                "answer": "Dolphin",
+                "isCorrect": false
+            },
+            {
+                "answer": "Eagle",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "type": "true-or-false",
+        "category": "animals",
+        "question": "Bats are mammals.",
+        "questionToken": "true-or-false__bats-mammals",
+        "explanation": "Bats are acutally mammals believe it or not!",
+        "options": [
+            {
+                "answer": "True",
+                "isCorrect": true
+            },
+            {
+                "answer": "False",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+    "type": "short-answer",
+    "category": "sports",
+    "question": "How many players are there in a standard soccer team on the field?",
+    "questionToken": "short-answer__soccer-team-players",
+    "similarityToBeCorrect": 0.9,
+    "options": [
+      {
+        "expectedAnswer": "11",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "multiple-choice",
+    "category": "sports",
+    "question": "Which country has won the most FIFA World Cups?",
+    "questionToken": "multiple-choice__most-fifa-world-cups",
+    "options": [
+      {
+        "answer": "Brazil",
+        "isCorrect": true
+      },
+      {
+        "answer": "Germany",
+        "isCorrect": false
+      },
+      {
+        "answer": "Italy",
+        "isCorrect": false
+      },
+      {
+        "answer": "Argentina",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "true-or-false",
+    "category": "sports",
+    "question": "The Olympic Games are held every two years.",
+    "questionToken": "true-or-false__olympic-games-frequency",
+    "explanation": "They are held every four years.",
+    "options": [
+      {
+        "answer": "True",
+        "isCorrect": false
+      },
+      {
+        "answer": "False",
+        "isCorrect": true
+      }
+    ]
+  }
+]

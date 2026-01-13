@@ -1,0 +1,139 @@
+/* animations.css */
+@keyframes crack {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  10% {
+    transform: rotate(5deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+@keyframes rise 
+{
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  20% 
+  {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-from-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  75% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-from-right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  75% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-from-right--stay {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-from-left--stay {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes zoom-fade {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(100%);
+    opacity: 1;
+  }
+}
+
+@keyframes game-over {
+  0% { background-color: transparent; }
+  100% { background-color: rgb(255, 0, 0, 0.25); }
+}
+
+.animate-wrong-answer {
+  animation: crack 1.0s ease-in-out forwards;
+}
+
+.animate-correct-answer {
+  animation: rise 1.0s ease-in-out forwards;
+}
+
+.animate-slide-from-left {
+  animation: slide-from-left 3.0s ease-in-out forwards;
+}
+
+.animate-slide-from-right--stay {
+  animation: slide-from-right--stay 1.0s ease-in-out forwards;
+}
+
+.animate-slide-from-left--stay {
+  animation: slide-from-left--stay 1.0s ease-in-out forwards;
+}
+
+.animate-zoom-fade {
+  animation: zoom-fade 0.5s ease-in forwards;
+}
+
+.animate-game-over {
+  animation: game-over 3.0s ease-in forwards;
+}

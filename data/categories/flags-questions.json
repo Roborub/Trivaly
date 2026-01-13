@@ -1,0 +1,30 @@
+[
+    {
+        "type": "image-choice",
+        "category": "flags",
+        "question": "Which of these is the flag of Japan?",
+        "questionToken": "image-choice__japan-flag",
+        "options": [
+            {
+                "imageSource": "/images/answer_images/japan-flag/Flag_of_Japan.svg",
+                "imageAlt": "Japan Flag",
+                "isCorrect": true
+            },
+            {
+                "imageSource": "/images/answer_images/japan-flag/Flag_of_the_People's_Republic_of_China.svg",
+                "imageAlt": "China Flag",
+                "isCorrect": false
+            },
+            {
+                "imageSource": "/images/answer_images/japan-flag/Flag_of_South_Korea.svg",
+                "imageAlt": "South Korea Flag",
+                "isCorrect": false
+            },
+            {
+                "imageSource": "/images/answer_images/japan-flag/Flag_of_India.svg",
+                "imageAlt": "India Flag",
+                "isCorrect": false
+            }
+        ]
+    }
+]

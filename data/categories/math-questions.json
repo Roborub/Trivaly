@@ -1,0 +1,69 @@
+[
+    {
+        "type": "short-answer",
+        "category": "math",
+        "question": "What is the square root of 16?",
+        "questionToken": "short-answer__sqrt-16",
+        "similarityToBeCorrect": 0.9,
+        "options": [
+            {
+                "expectedAnswer": "4",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+    "type": "short-answer",
+    "category": "math",
+    "question": "What is the value of π (pi) rounded to two decimal places?",
+    "questionToken": "short-answer__pi-value",
+    "similarityToBeCorrect": 0.9,
+    "options": [
+      {
+        "expectedAnswer": "3.14",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "multiple-choice",
+    "category": "math",
+    "question": "What is the derivative of sin(x)?",
+    "questionToken": "multiple-choice__derivative-sin",
+    "options": [
+      {
+        "answer": "cos(x)",
+        "isCorrect": true
+      },
+      {
+        "answer": "-cos(x)",
+        "isCorrect": false
+      },
+      {
+        "answer": "-sin(x)",
+        "isCorrect": false
+      },
+      {
+        "answer": "sin(x)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "true-or-false",
+    "category": "math",
+    "question": "The sum of the interior angles of a triangle is 180 degrees.",
+    "questionToken": "true-or-false__triangle-angles",
+    "explanation": "The sum is 180 degrees.",
+    "options": [
+      {
+        "answer": "True",
+        "isCorrect": true
+      },
+      {
+        "answer": "False",
+        "isCorrect": false
+      }
+    ]
+  }
+]

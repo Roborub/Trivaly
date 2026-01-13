@@ -1,0 +1,73 @@
+[
+    {
+        "type": "short-answer",
+        "category": "geography",
+        "question": "What is the capital of France?",
+        "questionToken": "short-answer__capital-france",
+        "similarityToBeCorrect": 0.9,
+        "options": [
+            {
+                "expectedAnswer": "Paris",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+    "type": "short-answer",
+    "category": "geography",
+    "question": "What is the longest river in the world?",
+    "questionToken": "short-answer__longest-river",
+    "similarityToBeCorrect": 0.9,
+    "options": [
+      {
+        "expectedAnswer": "Nile",
+        "isCorrect": true
+      },
+      {
+        "expectedAnswer": "Amazon",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "multiple-choice",
+    "category": "geography",
+    "question": "Which country has the largest population?",
+    "questionToken": "multiple-choice__largest-population",
+    "options": [
+      {
+        "answer": "India",
+        "isCorrect": false
+      },
+      {
+        "answer": "China",
+        "isCorrect": true
+      },
+      {
+        "answer": "United States",
+        "isCorrect": false
+      },
+      {
+        "answer": "Indonesia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "true-or-false",
+    "category": "geography",
+    "question": "Mount Everest is located in the Andes mountain range.",
+    "questionToken": "true-or-false__everest-location",
+    "explanation": "Mount Everest is in the Himalayas!",
+    "options": [
+      {
+        "answer": "True",
+        "isCorrect": false
+      },
+      {
+        "answer": "False",
+        "isCorrect": true
+      }
+    ]
+  }
+]

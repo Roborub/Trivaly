@@ -1,0 +1,73 @@
+[
+    {
+        "type": "true-or-false",
+        "category": "science",
+        "question": "Water boils at 100 degrees Celsius.",
+        "questionToken": "true-or-false__boiling-water",
+        "explanation": "Water does boil at 100 degrees Celsius!",
+        "options": [
+            {
+                "answer": "True",
+                "isCorrect": true
+            },
+            {
+                "answer": "False",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+    "type": "short-answer",
+    "category": "science",
+    "question": "What is the chemical symbol for water?",
+    "questionToken": "short-answer__chemical-symbol-water",
+    "similarityToBeCorrect": 0.9,
+    "options": [
+      {
+        "expectedAnswer": "H2O",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "type": "multiple-choice",
+    "category": "science",
+    "question": "Which planet is known as the Red Planet?",
+    "questionToken": "multiple-choice__red-planet",
+    "options": [
+      {
+        "answer": "Earth",
+        "isCorrect": false
+      },
+      {
+        "answer": "Mars",
+        "isCorrect": true
+      },
+      {
+        "answer": "Jupiter",
+        "isCorrect": false
+      },
+      {
+        "answer": "Venus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "type": "true-or-false",
+    "category": "science",
+    "question": "Light travels faster than sound.",
+    "questionToken": "true-or-false__light-speed",
+    "explanation": "Light travels at 300,000 kilometers per second which is around 874,030 times faster than sound!",
+    "options": [
+      {
+        "answer": "True",
+        "isCorrect": true
+      },
+      {
+        "answer": "False",
+        "isCorrect": false
+      }
+    ]
+  }
+]
